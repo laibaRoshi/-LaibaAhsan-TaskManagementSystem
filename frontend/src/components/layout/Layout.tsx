@@ -1,4 +1,5 @@
-import React, { ReactNode } from 'react'; // Import React here
+
+import React, { ReactNode } from 'react';
 import Navbar from './Navbar';
 
 interface LayoutProps {

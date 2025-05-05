@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
@@ -83,28 +84,28 @@ export default function TaskForm({ taskId }: TaskFormProps) {
       <div>
         <Label>Title</Label>
         <Input {...register("title", { required: "Title is required" })} />
-        {errors.title && <p className="text-red-500 text-sm">{errors.title.message}</p>}
+        {errors.title && <p className="text-red-500 text-sm">{errors.title.message?.toString()}</p>}
       </div>
 
       {/* Description */}
       <div>
         <Label>Description</Label>
         <Textarea {...register("description", { required: "Description is required" })} />
-        {errors.description && <p className="text-red-500 text-sm">{errors.description.message}</p>}
+        {errors.description && <p className="text-red-500 text-sm">{errors.description.message?.toString()}</p>}
       </div>
 
       {/* Due Date */}
       <div>
         <Label>Due Date</Label>
         <Input type="date" {...register("dueDate", { required: "Due date is required" })} />
-        {errors.dueDate && <p className="text-red-500 text-sm">{errors.dueDate.message}</p>}
+        {errors.dueDate && <p className="text-red-500 text-sm">{errors.dueDate.message?.toString()}</p>}
       </div>
 
       {/* Category */}
       <div>
         <Label>Category</Label>
         <Input {...register("category", { required: "Category is required" })} />
-        {errors.category && <p className="text-red-500 text-sm">{errors.category.message}</p>}
+        {errors.category && <p className="text-red-500 text-sm">{errors.category.message?.toString()}</p>}
       </div>
 
       {/* Priority */}
@@ -164,9 +165,9 @@ export default function TaskForm({ taskId }: TaskFormProps) {
       </div>
 
       {/* Submit */}
-      <Button type="submit" disabled={mutation.isLoading}>
-        {mutation.isLoading ? "Saving..." : isEditMode ? "Update Task" : "Create Task"}
+      <Button type="submit" disabled={mutation.isPending}>
+        {mutation.isPending ? "Saving..." : isEditMode ? "Update Task" : "Create Task"}
       </Button>
     </form>
   );
-}
+};

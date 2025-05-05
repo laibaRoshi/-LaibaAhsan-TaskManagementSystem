@@ -1,6 +1,6 @@
+
 import api from './api';
 import { AppTask, TaskFormData, TaskStats } from '../lib/types';
-import { User } from '../lib/types';
 
 // Fetch all tasks
 export const getTasks = async (): Promise<AppTask[]> => {
@@ -37,8 +37,10 @@ export const getTaskStats = async (): Promise<TaskStats> => {
   return response.data;
 };
 
-// Fetch users
-export const getUsers = async (): Promise<User[]> => {
-  const response = await api.get('/users'); // Adjust endpoint if needed
-  return response.data;
+// Mock function to get users until the endpoint is available
+export const getUsers = async (): Promise<{id: string, name: string}[]> => {
+  return [
+    { id: "1", name: "John Doe" },
+    { id: "2", name: "Jane Smith" }
+  ];
 };

@@ -1,11 +1,11 @@
+
 import { useQuery } from "@tanstack/react-query";
 import { getTaskStats } from "../services/taskService";
 import Layout from "../components/layout/Layout";
 import { Spinner } from "../components/ui/spinner";
 import { CheckCircle, Clock, ClipboardList, AlertTriangle } from "lucide-react";
-import React from 'react';
 
-const Dashboard = () => {
+const DashboardPage = () => {
   const { data: stats, isLoading, error } = useQuery({
     queryKey: ['taskStats'],
     queryFn: getTaskStats
@@ -78,11 +78,9 @@ const Dashboard = () => {
             </div>
           </div>
         )}
-
-        {/* Additional dashboard content can go here */}
       </div>
     </Layout>
   );
 };
 
-export default Dashboard;
+export default DashboardPage;

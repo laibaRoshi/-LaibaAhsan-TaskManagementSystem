@@ -1,5 +1,12 @@
+
 import api from './api';
 import { LoginCredentials, User } from '../lib/types';
+
+interface RegisterData {
+  name: string;
+  email: string;
+  password: string;
+}
 
 export const loginUser = async (credentials: LoginCredentials): Promise<User> => {
   try {
@@ -14,6 +21,16 @@ export const loginUser = async (credentials: LoginCredentials): Promise<User> =>
     return response.data.user;
   } catch (error) {
     console.error('Login error:', error);
+    throw error;
+  }
+};
+
+export const registerUser = async (data: RegisterData): Promise<any> => {
+  try {
+    const response = await api.post('/auth/register', data);
+    return response.data;
+  } catch (error) {
+    console.error('Registration error:', error);
     throw error;
   }
 };

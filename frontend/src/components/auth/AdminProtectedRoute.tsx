@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
 import { isAdmin, isAuthenticated } from "../../services/authService";
@@ -44,4 +45,4 @@ const AdminProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   return <>{children}</>;
 };
 
-export default AdminProtectedRoute;
+export default AdminProtectedRoute

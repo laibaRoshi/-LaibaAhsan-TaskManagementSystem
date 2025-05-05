@@ -1,9 +1,10 @@
+
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Button } from "../ui/button";
 import { useAuth } from "../auth/AuthProvider";
 import { logoutUser } from "../../services/authService";
-import { Menu, X, Bell, Home, CheckSquare, User, LogOut, Settings } from "lucide-react";
+import { Menu, X, Home, CheckSquare, User, LogOut, Settings } from "lucide-react";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -27,14 +28,6 @@ const Navbar = () => {
   if (isAdmin) {
     navigation.push({ name: "Admin", href: "/admin", icon: Settings });
   }
-  
-  const getInitials = (name: string) => {
-    return name
-      .split(" ")
-      .map((n) => n[0])
-      .join("")
-      .toUpperCase();
-  };
 
   const handleLogout = () => {
     logoutUser();

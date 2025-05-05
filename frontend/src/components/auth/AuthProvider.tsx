@@ -7,6 +7,7 @@ type AuthContextType = {
   isAdmin: boolean;
   user: User | null;
   loading: boolean;
+  setUser: (user: User | null) => void;
 };
 
 const AuthContext = createContext<AuthContextType>({
@@ -14,6 +15,7 @@ const AuthContext = createContext<AuthContextType>({
   isAdmin: false,
   user: null,
   loading: true,
+  setUser: () => {},
 });
 
 export const useAuth = () => useContext(AuthContext);
@@ -54,6 +56,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     isAdmin: user?.role === 'admin',
     user,
     loading,
+    setUser,
   };
   
   return (
