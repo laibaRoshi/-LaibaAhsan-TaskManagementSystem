@@ -1,0 +1,15 @@
+2025-05-05 10:27:47.254 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 10:27:47.464 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 10:27:47.477 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 10:41:42.969 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 10:41:43.055 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 10:41:43.063 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 10:49:47.855 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 10:49:47.938 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 10:49:47.946 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 11:10:23.814 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 11:10:23.942 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 11:10:23.988 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 13:54:32.120 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 13:54:32.229 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.
+2025-05-05 13:54:32.267 +05:00 [WRN] The WebRootPath was not found: C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.API\wwwroot. Static files may be unavailable.

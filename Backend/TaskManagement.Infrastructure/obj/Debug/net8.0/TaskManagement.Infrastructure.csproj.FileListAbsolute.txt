@@ -1,0 +1,17 @@
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.AssemblyInfo.cs
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\bin\Debug\net8.0\TaskManagement.Infrastructure.deps.json
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\bin\Debug\net8.0\TaskManagement.Infrastructure.runtimeconfig.json
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\bin\Debug\net8.0\TaskManagement.Infrastructure.dll
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\bin\Debug\net8.0\TaskManagement.Infrastructure.pdb
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\bin\Debug\net8.0\TaskManagement.Core.dll
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\bin\Debug\net8.0\TaskManagement.Core.pdb
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskMana.BCA0E1A6.Up2Date
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.dll
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\refint\TaskManagement.Infrastructure.dll
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.pdb
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.genruntimeconfig.cache
+C:\Users\Laiba\Project\TaskManagementSystem\Backend\TaskManagement.Infrastructure\obj\Debug\net8.0\ref\TaskManagement.Infrastructure.dll
